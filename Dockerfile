@@ -6,12 +6,12 @@ WORKDIR /yashodha
 
 
 # Copy the current directory contents into the container at /app
-COPY . /yashodha
 
 
+# Clone your source code from a Git repository
+RUN git clone https://github.com/yasodhareddyy/git_jenkins_docker.git
 
-
-
+WORKDIR /yashodha/git_jenkins_docker
 
 # Define the command to run your script
 CMD [ "python", "app.py" ]
