@@ -6,7 +6,7 @@ WORKDIR /yashodha
 
 
 # Clone the source code from Git
-RUN git clone https://github.com/yasodhareddyy/Git_hub_operations.git
+RUN git clone https://github.com/yasodhareddyy/git_jenkins_docker.git
 
 # Set the working directory to /app
 WORKDIR /yashodha/Git_hub_operations/project_docker
